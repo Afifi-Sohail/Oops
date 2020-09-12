@@ -1,0 +1,67 @@
+html
+    head
+        title Car Details
+        include includes/meta.pug
+        include includes/styles.pug
+    body
+        include includes/layout/header.pug
+        div(class="details")
+            div(class="container")
+                h2 شيفرولية
+                span(class="child-details") القاهرة , المعادي | تم إضافة الإعلان في 12.30
+                div(class="row")
+                    div(class="col-12 col-lg-8")
+                        div(class="image")
+                            div(class="overlay")
+                            img(src="images/2.png", alt="car")
+                        div(class="add")
+                            span 
+                                i(class="fas fa-star")
+                                |اضف الى المفضلة
+                                
+                            span 
+                                i(class="fas fa-exclamation-circle")
+                                |الإبلاغ عن مشكلة
+                        div(class="main-details")
+                            span الموديل : كروز
+                            span طريقة الدفع : كاش
+                            span ناقل الحركة : اوتوماتيك
+                            span الحالة : مستعمل
+                            span كيلومترات : 70,000
+                            span المحرك : 1400 - 1600
+                            span(class="max") السنة : 2018
+                            span إضافات : 
+                                br
+                                | تكييف
+                                br
+                                | تنبيه / نظام مضاض للسرقة
+                                br
+                                | راديو اف ام
+                                br
+                                | مدخل اوديو aux
+                                br
+                                | فوانيس شبورة
+                        h3 تفاصيل :
+                        p عربية بحالة ممتازة و المعاينة خير دليل يا عزيزي و مش محتاجة مصاريف اي والله
+                        h3 ارسال رسالة :
+                        textarea(cols="30", rows="7",placeholder="اكتب رسالتك")
+                        input(class="button1",type="submit")
+                    div(class="col-12 col-lg-4 sidebar")
+                        span(class="price") 222,000 ج.م
+                        a(href="#") ارسل رسالة
+                        a(href="#") اتصل
+                        div(class="box1")
+                            i(class="fas fa-user")
+                            span محمد محروس
+                            span مسجل منذ فترة
+                            span إعلانات هذا المستخدم
+                        div(class="box2")
+                            h4 سلامتك تهمنا
+                            ul
+                                li قابل البائع في مكان عام مثل المترو او المولات او محطات البنزين
+                                li لا تذهب بمفردك عند مقابلة البائع
+                                li تفحص المنتج جيدا قبل الشراء و تاكد ان السعر مناسب
+                                li لا تقم بالدفع او بتحويل الاموال الا بعد التاكد من المنتج
+
+        include includes/layout/contact-us.pug
+        include includes/scripts.pug

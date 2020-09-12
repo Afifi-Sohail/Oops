@@ -1,0 +1,202 @@
+html
+    head
+        title Cars
+        include includes/meta.pug
+        include includes/styles.pug
+    body
+        include includes/layout/header.pug
+        form
+            div(class="container")
+                div(class="row div-form")
+                    input(class="first-input",type="text",placeholder="عن ماذا تبحث ؟")
+                    div(class="select-div")
+                        select
+                            option(value="0") ابحث عن منطقة معينة
+                            option(value="1") 1
+                            option(value="2") 2
+                            option(value="3") 3
+                        i(class="fas fa-caret-down icone")
+                    div(class="select-div")
+                        select
+                            option(value="0") عربيات
+                            option(value="1") 1
+                            option(value="2") 2
+                            option(value="3") 3
+                        i(class="fas fa-caret-down icone")
+                    div(class="select-div")
+                        select
+                            option(value="0") اختر فئة
+                            option(value="1") 1
+                            option(value="2") 2
+                            option(value="3") 3
+                        i(class="fas fa-caret-down icone")
+                    div(class="select-div")
+                        select
+                            option(value="0") السنة
+                            option(value="1") 1
+                            option(value="2") 2
+                            option(value="3") 3
+                        i(class="fas fa-caret-down icone")
+                    div(class="select-div")
+                        select
+                            option(value="0") ناقل الحركة
+                            option(value="1") 1
+                            option(value="2") 2
+                            option(value="3") 3
+                        i(class="fas fa-caret-down icone")
+                    div(class="select-div")
+                        select
+                            option(value="0") الحالة
+                            option(value="1") 1
+                            option(value="2") 2
+                            option(value="3") 3
+                        i(class="fas fa-caret-down icone")
+                    input(class="search",type="submit" value="ابحث")
+        div(class="cars padding-top")
+            div(class="container")
+                h2(class="title") الإعلانات المميزة
+                div(class="row justify-content-around")
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/2.png", alt="irpod")
+                        h3 شيفرولية
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 550,000 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/1.png", alt="irpod")
+                        h3 ford
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 450,000 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/3.png", alt="irpod")
+                        h3 سفينة فضاء
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 1,000,000 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+            div(class="container")
+                h2(class="title") الإعلانات
+                div(class="row justify-content-around")
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/2.png", alt="irpod")
+                        h3 شيفرولية
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 550,000 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/1.png", alt="irpod")
+                        h3 ford
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 450,000 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/3.png", alt="irpod")
+                        h3 سفينة فضاء
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 1,000,000 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/2.png", alt="irpod")
+                        h3 شيفرولية
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 550,000 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/1.png", alt="irpod")
+                        h3 ford
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 450,000 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/3.png", alt="irpod")
+                        h3 سفينة فضاء
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 1,000,000 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                div(class="row")
+                    ul(class="col-12 col-lg-6 page-list")
+                        li
+                            a(href="#") 1
+                        li
+                            a(href="#") 2
+                        li
+                            a(href="#") 3
+                        li
+                            a(href="#") 4
+                        li
+                            a(href="#") 5
+
+        include includes/layout/contact-us.pug
+        include includes/scripts.pug

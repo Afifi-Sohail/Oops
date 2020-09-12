@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.overlay {
+    transition: .5s all ease-in-out;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    text-transform: capitalize;
+    form {
+        .div-form {
+            background: linear-gradient(to right, rgb(198, 66, 89), rgb(255, 138, 92));
+            z-index: 3;
+            position: absolute;
+            top: 62%;
+            right: 50%;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            justify-content: space-around;
+            transform: translate(50%, 0);
+            // @media(max-width: $md) {
+            //     top: 22%;
+            // }
+            // @media(max-width: $sm) {
+            //     top: 27%;
+            // }
+            .first-input,
+            select,
+            .search {
+                border: none;
+                outline: none;
+                border-radius: 20px;
+                padding: 7px 20px 7px 80px;
+                margin: 10px 0;
+            }
+            .select-div {
+                position: relative;
+                select {
+                    appearance: none;
+                    cursor: pointer;
+                }
+                i {
+                    position: absolute;
+                    top: 15px;
+                    left: 18px;
+                    font-size: 25px;
+                }
+            }
+            .search {
+                padding: 7px 50px;
+                cursor: pointer;
+            }
+        }
+    }
+    .content {
+        .box {
+            text-align: center;
+            margin: 10px 0;
+            padding-left: 0;
+            padding-right: 0;
+            &:nth-of-type(1) {
+                i {
+                    background: linear-gradient(to bottom, #c64259, #ff8a5c);
+                }
+            }
+            &:nth-of-type(2) {
+                i {
+                    background: linear-gradient(to bottom, #c4445a, #4a4445);
+                }
+            }
+            &:nth-of-type(3) {
+                i {
+                    background: linear-gradient(to bottom, #ee8359, #514945);
+                }
+            }
+            &:nth-of-type(4) {
+                i {
+                    background: linear-gradient(to bottom, #0dc5da, #1d929b);
+                }
+            }
+            &:nth-of-type(5) {
+                i {
+                    background: linear-gradient(to bottom, #c64259, #ff8a5c);
+                }
+            }
+            &:nth-of-type(6) {
+                i {
+                    background: linear-gradient(to bottom, #c4445a, #4a4445);
+                }
+            }
+            i {
+                color: #fff;
+                font-size: 35px;
+                line-height: 2.4;
+                margin-bottom: 5px;
+                width: 85px;
+                height: 85px;
+                border-radius: 80px;
+                -webkit-border-radius: 80px;
+                -moz-border-radius: 80px;
+                -ms-border-radius: 80px;
+                -o-border-radius: 80px;
+            }
+            button {
+                color: #fff;
+                background-color: #444;
+                border: none;
+                border-radius: 20px;
+                padding: 3px;
+                font-size: 11px;
+                width: 155px;
+            }
+            .dropdown-toggle::after {
+                position: absolute;
+                left: 7%;
+                top: 49%;
+                font-size: 15px;
+                // @media(max-width: $md) {
+                //     left: 21%;
+                // }
+                @media(max-width: $sm) {
+                    // left: 24%;
+                    left: 11%;
+                }
+            }
+        }
+    }
+    .subscribe {
+        background-image: url("../images/Rectangle 9.png");
+        text-align: center;
+        padding: 50px 20px;
+        h2 {
+            font-size: 25px;
+            color: $colorfff;
+            margin-bottom: 20px;
+        }
+        .email {
+            display: block;
+            margin: 40px auto;
+            border: none;
+            outline: none;
+            padding: 15px 20px;
+            width: 40%;
+            border-radius: 40px;
+            @media(max-width: $sm) {
+                width: 80%;
+            }
+        }
+        .send {
+            padding: 7px 50px;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            color: #ff9065;
+            cursor: pointer;
+        }
+    }
+}

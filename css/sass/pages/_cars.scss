@@ -1,0 +1,38 @@
+// form {
+//     .div-form {
+//         @media(max-width: $md) {
+//             top: 22% !important;
+//         }
+//     }
+// }
+.cars {
+    background-color: #f1f1f1;
+    .card {
+        background-color: $colorfff;
+    }
+    .page-list {
+        margin: auto;
+        text-align: center;
+        list-style: none;
+        li {
+            display: inline-block;
+            background-color: $colorcf;
+            width: 30px;
+            height: 30px;
+            margin: 20px 5px;
+            line-height: 30px;
+            border-radius: 6px;
+            font-size: 20px;
+            &:hover {
+                background-color: $colorff;
+            }
+            a {
+                color: $colorfff;
+                &:hover {
+                    color: $colorfff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

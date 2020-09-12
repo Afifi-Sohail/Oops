@@ -1,0 +1,161 @@
+doctype
+html
+    head
+        include includes/meta.pug
+        include includes/styles.pug
+        title Oops
+    body
+        include includes/layout/header.pug
+        form
+            div(class="container")
+                div(class="row div-form")
+                    input(class="first-input",type="text",placeholder="عن ماذا تبحث ؟")
+                    div(class="select-div")
+                        select
+                            option(value="0") ابحث عن منطقة معينة
+                            option(value="1") 1
+                            option(value="2") 2
+                            option(value="3") 3
+                        i(class="fas fa-caret-down icone")
+                    input(class="search",type="submit" value="ابحث")
+        div(class="content padding-top")
+            div(class="container")
+                div(class="row")
+                    div(class="col-6 col-md-4 col-lg-2 box")
+                        i(class="fas fa-car")
+                        div(class="dropdown")
+                            button(class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") السيارات وقطع الغيار
+                            div(class="dropdown-menu" aria-labelledby="dropdownMenu1") 
+                                a(class="dropdown-item" href="cars.html") السيارات
+                                a(class="dropdown-item" href="#!") Another action
+                    div(class="col-6 col-md-4 col-lg-2 box")
+                        i(class="fas fa-mobile")
+                        div(class="dropdown")
+                            button(class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") موبايلات و لكسسوارات
+                            div(class="dropdown-menu" aria-labelledby="dropdownMenu1") 
+                                a(class="dropdown-item" href="#!") Action
+                                a(class="dropdown-item" href="#!") Another action
+                    div(class="col-6 col-md-4 col-lg-2 box")
+                        i(class="fas fa-building")
+                        div(class="dropdown")
+                            button(class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") عقارات
+                            div(class="dropdown-menu" aria-labelledby="dropdownMenu1") 
+                                a(class="dropdown-item" href="#!") Action
+                                a(class="dropdown-item" href="#!") Another action
+                    div(class="col-6 col-md-4 col-lg-2 box")
+                        i(class="fas fa-tshirt")
+                        div(class="dropdown")
+                            button(class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") الموضة
+                            div(class="dropdown-menu" aria-labelledby="dropdownMenu1") 
+                                a(class="dropdown-item" href="#!") Action
+                                a(class="dropdown-item" href="#!") Another action
+                    div(class="col-6 col-md-4 col-lg-2 box")
+                        i(class="fas fa-tv")
+                        div(class="dropdown")
+                            button(class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") الكترونيات و ادوات منزلية
+                            div(class="dropdown-menu" aria-labelledby="dropdownMenu1") 
+                                a(class="dropdown-item" href="#!") Action
+                                a(class="dropdown-item" href="#!") Another action
+                    div(class="col-6 col-md-4 col-lg-2 box")
+                        i(class="fas fa-paw")
+                        div(class="dropdown")
+                            button(class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") حيوانات اليفة
+                            div(class="dropdown-menu" aria-labelledby="dropdownMenu1") 
+                                a(class="dropdown-item" href="#!") Action
+                                a(class="dropdown-item" href="#!") Another action
+        div(class="ads")
+            div(class="container")
+                h2(class="title") الإعلانات المضافة حديثا
+                div(class="row justify-content-around")
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/irpod.png", alt="irpod")
+                        h3 airpod
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 450 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/irpod.png", alt="irpod")
+                        h3 airpod
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 450 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/irpod.png", alt="irpod")
+                        h3 airpod
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 450 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/ds.png", alt="irpod")
+                        h3 الينترا 2020
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 220,000 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المنصورة
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/irpod.png", alt="irpod")
+                        h3 airpod
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 450 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                    div(class="card col-9 col-md-5 col-lg-3")
+                        a(href="car-page-details.html")
+                        img(src="images/irpod.png", alt="irpod")
+                        h3 airpod
+                        ul
+                            li
+                                i(class="fas fa-money-bill-wave-alt")
+                                | 450 ج.م
+                            li
+                                i(class="fas fa-clock")
+                                | اليوم 12.30
+                            li
+                                i(class="fas fa-map-marker-alt")
+                                | المعادي
+                a(href="#",class="button1") المزيد
+        div(class="subscribe")
+            div(class="container")
+                h2 اشترك معنا ليصلك كل جديد
+                input(class="email",type="email" placeholder="البريد الإلكتروني")
+                input(class="send",type="submit")
+        include includes/layout/contact-us.pug
+        include includes/scripts.pug

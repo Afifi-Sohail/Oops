@@ -1,0 +1,18 @@
+.button1 {
+    width: 200px;
+    display: block;
+    text-align: center;
+    background: linear-gradient(to bottom, #c64259, #ff8a5c);
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px auto;
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        background: linear-gradient(to bottom, #ff8a5c, #c64259);
+    }
+}

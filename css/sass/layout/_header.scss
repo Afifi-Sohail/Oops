@@ -1,0 +1,43 @@
+header {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+    .add-advertisement {
+        padding: 20px;
+        i {
+            color: $colorfff;
+            font-size: $fontSI1;
+        }
+        .add-adver {
+            transition: .5s all ease-in-out;
+            -webkit-transition: .5s all ease-in-out;
+            -moz-transition: .5s all ease-in-out;
+            -ms-transition: .5s all ease-in-out;
+            -o-transition: .5s all ease-in-out;
+            color: #d55d71;
+            margin: 0 10px;
+            background-color: $colorfff;
+            border-radius: 10px;
+            padding: 0 15px;
+            font-size: 13px;
+            &:hover {
+                color: $colorfff;
+                background-color: #d55d71;
+                text-decoration: none;
+            }
+        }
+    }
+    .image-header {
+        width: 22%;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        -webkit-transform: translate(50%, -50%);
+        -moz-transform: translate(50%, -50%);
+        -ms-transform: translate(50%, -50%);
+        -o-transform: translate(50%, -50%);
+    }
+}

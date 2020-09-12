@@ -1,0 +1,86 @@
+html
+    head
+        title Add Advertisement
+        include includes/meta.pug      
+        include includes/styles.pug
+    body
+        include includes/layout/header2.pug
+        div(class="add-advert")
+            div(class="container")
+                h2(class="title") اضف إعلان
+                div(class="box")
+                    div(class="row")
+                        div(class="col-12 col-lg-6 text-center")
+                            label اسم الإعلان
+                            input(class="input-t",type="text")
+                            label صنف الإعلان
+                            select
+                                option(value="1") عربيات
+                                option(value="2") سماعات
+                                option(value="3") هواتف
+                            label السعر
+                            input(class="input-t",type="text")
+                            label طريقة الدفع
+                            select
+                                option(value="1") كاش
+                                option(value="2") 2
+                                option(value="3") 3
+                            label طريقة الدفع
+                            select
+                                option(value="1") الموديل
+                                option(value="2") 2
+                                option(value="3") 3
+                            label طريقة الدفع
+                            select
+                                option(value="1") السنة
+                                option(value="2") 2
+                                option(value="3") 3
+                            label كيلومترات
+                            input(class="input-t",type="text")
+                            label ناقل الحركة
+                            select
+                                option(value="1") مانيوال
+                                option(value="2") 2
+                                option(value="3") 3
+                            label  الحالة
+                            select
+                                option(value="1") مستعمل
+                                option(value="2") 2
+                                option(value="3") 3
+                            h4 إضافات :
+                            div(class="checkbox")
+                                span كاميرا خلفية
+                                input(type="checkbox")
+                                span زجاج كهرباء
+                                input(type="checkbox")
+                                span  فوانيس شبورة
+                                input(type="checkbox")
+                            div(class="checkbox")
+                                span كاميرا خلفية
+                                input(type="checkbox")
+                                span زجاج كهرباء
+                                input(type="checkbox")
+                                span  فوانيس شبورة
+                                input(type="checkbox")
+                            div(class="checkbox")
+                                span كاميرا خلفية
+                                input(type="checkbox")
+                                span زجاج كهرباء
+                                input(type="checkbox")
+                                span  فوانيس شبورة
+                                input(type="checkbox")
+                            label وصف الإعلان
+                            textarea( cols="30", rows="7")
+                            label مكان الإعلان 
+                            input(class="input-t",type="text")
+                            label الاسم 
+                            input(class="input-t",type="text")
+                            label الإيميل 
+                            input(class="input-t",type="text")
+                            label رقم الهاتف 
+                            input(class="input-t",type="text")
+                            input(class="submit button1",type="submit",value="انشر الإعلان")
+                        div(class="col-10 col-lg-6 image")
+                            img(src="images/Group 33.png", alt="image")
+        include includes/layout/contact-us.pug
+        include includes/scripts.pug

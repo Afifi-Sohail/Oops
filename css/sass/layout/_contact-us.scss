@@ -1,0 +1,76 @@
+.contact-us {
+    background-color: $colorcf;
+    padding: 50px 0;
+    @media(max-width: $md) {
+        padding: 50px 0 0;
+    }
+    .container {
+        .row {
+            div {
+                @media(max-width: $md) {
+                    margin-bottom: 30px;
+                }
+                .image {
+                    width: 65%;
+                    margin: auto;
+                }
+                p {
+                    font-size: 14px;
+                    color: $colorfff;
+                    margin: 10px 0;
+                }
+                ul {
+                    li {
+                        list-style: none;
+                        line-height: 2;
+                        a {
+                            color: $colorfff;
+                            text-decoration: none;
+                            &:hover {
+                                color: $colorff;
+                            }
+                        }
+                    }
+                }
+                a {
+                    color: $colorfff;
+                    &:hover {
+                        color: $colorfff;
+                        text-decoration: none;
+                    }
+                    .icon {
+                        font-size: 25px;
+                        margin: 5%;
+                    }
+                }
+                h3 {
+                    font-size: 20px;
+                    text-align: center;
+                    margin: 0 0 15px 0;
+                    color: $colorfff;
+                }
+                .get-app {
+                    color: $colorcf;
+                    display: block;
+                    background-color: #fff;
+                    padding: 10px;
+                    border-radius: 20px;
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                    position: relative;
+                    &:hover {
+                        color: $colorff;
+                        text-decoration: none;
+                    }
+                    i {
+                        position: absolute;
+                        top: 11px;
+                        left: 11px;
+                        font-size: 20px;
+                        color: $colorff;
+                    }
+                }
+            }
+        }
+    }
+}

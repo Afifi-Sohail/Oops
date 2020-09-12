@@ -1,0 +1,58 @@
+.header2 {
+    height: 250px;
+}
+
+.add-advert {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    h2 {
+        margin: 0 0 20px;
+    }
+    .box {
+        background-color: #ececec;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px #ccc;
+        padding: 20px 0;
+        label {
+            display: block;
+            margin-top: 15px;
+            color: $colorff;
+            font-size: 18px;
+        }
+        input.input-t,
+        select,
+        textarea {
+            width: 85%;
+            padding: 10px 20px;
+            outline: none;
+            border: none;
+            border-radius: 20px;
+            background-color: #fff;
+            margin: 8px;
+        }
+        select {
+            color: $colorff;
+        }
+        h4 {
+            text-align: right;
+            padding: 15px 15px 10px;
+            font-size: 19px;
+            color: $colorff;
+        }
+        .checkbox {
+            span {
+                color: $colorff;
+            }
+            input {
+                margin: 15px 0 15px 10px;
+            }
+        }
+        .submit {
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .image {
+        margin: 30px auto;
+    }
+}

@@ -1,0 +1,28 @@
+html
+    head
+        block title
+            title Login
+        include includes/meta.pug
+        include includes/styles.pug
+    body
+        include includes/layout/header2.pug
+        div(class="login")
+            div(class="container")
+                div(class="row")
+                    div(class="col-12 col-lg-6 box")
+                        form
+                            block box
+                                div(class="input-icons")
+                                    input(class="log",type="text", placeholder="الاسم")
+                                    i(class="fas fa-user")
+                                div(class="input-icons")
+                                    input(class="log",type="password", placeholder="كلمة المرور")
+                                    i(class="fas fa-lock")
+                                input(class="submit",type="submit",value="دخول")
+                                div(class="links")
+                                    a(href="regester.html") نسيت كلمة المرور ؟
+                                    a(href="#") إنشاء حساب
+                    div(class="col-12 col-lg-6 image")
+                        img(src="images/Group 24.png", alt="image") 
+        include includes/layout/contact-us.pug
+        include includes/scripts.pug
