@@ -34,15 +34,22 @@ body {
             right: 50%;
             width: 80%;
             margin: auto;
-            padding: 20px;
+            padding: 30px;
             justify-content: space-around;
             transform: translate(50%, 0);
             // @media(max-width: $md) {
             //     top: 22%;
             // }
-            // @media(max-width: $sm) {
-            //     top: 27%;
-            // }
+            @media(max-width: $sm) {
+                top: 42%;
+            }
+            .first-input,
+            .select-div {
+                max-width: 90%;
+            }
+            select {
+                width: 100%
+            }
             .first-input,
             select,
             .search {
@@ -139,7 +146,7 @@ body {
                 // }
                 @media(max-width: $sm) {
                     // left: 24%;
-                    left: 11%;
+                    left: 13%;
                 }
             }
         }

@@ -39,20 +39,31 @@
             font-size: 19px;
             color: $colorff;
         }
-        .checkbox {
-            span {
-                color: $colorff;
-            }
-            input {
-                margin: 15px 0 15px 10px;
+        .up-checkbox {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .checkbox {
+                text-align: right;
+                width: 30%;
+                @media(max-width: $sm) {
+                    width: 45%;
+                }
+                input {
+                    margin: 15px 0 15px 10px;
+                }
+                span {
+                    color: $colorff;
+                }
             }
         }
-        .submit {
-            border: none;
-            cursor: pointer;
-        }
     }
-    .image {
-        margin: 30px auto;
+    .submit {
+        border: none;
+        cursor: pointer;
     }
+}
+
+.image {
+    margin: 30px auto;
 }

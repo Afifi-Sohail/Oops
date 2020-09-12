@@ -78,9 +78,21 @@ body form .div-form {
   right: 50%;
   width: 80%;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
   justify-content: space-around;
   transform: translate(50%, 0);
+}
+@media (max-width: 767px) {
+  body form .div-form {
+    top: 42%;
+  }
+}
+body form .div-form .first-input,
+body form .div-form .select-div {
+  max-width: 90%;
+}
+body form .div-form select {
+  width: 100%;
 }
 body form .div-form .first-input,
 body form .div-form select,
@@ -162,7 +174,7 @@ body .content .box .dropdown-toggle::after {
 }
 @media (max-width: 767px) {
   body .content .box .dropdown-toggle::after {
-    left: 11%;
+    left: 13%;
   }
 }
 body .subscribe {
@@ -241,17 +253,32 @@ body .subscribe .send {
   font-size: 19px;
   color: #ff9065;
 }
-.add-advert .box .checkbox span {
-  color: #ff9065;
+.add-advert .box .up-checkbox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.add-advert .box .checkbox input {
+.add-advert .box .up-checkbox .checkbox {
+  text-align: right;
+  width: 30%;
+}
+@media (max-width: 767px) {
+  .add-advert .box .up-checkbox .checkbox {
+    width: 45%;
+  }
+}
+.add-advert .box .up-checkbox .checkbox input {
   margin: 15px 0 15px 10px;
 }
-.add-advert .box .submit {
+.add-advert .box .up-checkbox .checkbox span {
+  color: #ff9065;
+}
+.add-advert .submit {
   border: none;
   cursor: pointer;
 }
-.add-advert .image {
+
+.image {
   margin: 30px auto;
 }
 
@@ -400,6 +427,26 @@ body .subscribe .send {
 .details .sidebar .box2 ul li {
   list-style-image: url("../images/list.jpg");
   font-size: 14px;
+}
+
+@media (max-width: 991px) {
+  form .div-form2 {
+    top: 46% !important;
+  }
+}
+form .div-form2 .max-width {
+  max-width: 95%;
+}
+form .div-form2 .max-width select {
+  width: 100%;
+}
+form .div-form2 .select-div2 {
+  width: 30%;
+}
+@media (max-width: 767px) {
+  form .div-form2 .select-div2 {
+    width: 85%;
+  }
 }
 
 .cars {
